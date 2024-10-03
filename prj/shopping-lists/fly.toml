@@ -1,0 +1,15 @@
+# fly.toml app configuration file generated for silent-dew-967 on 2023-07-27T23:38:17+02:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "silent-dew-967"
+primary_region = "ams"
+
+[http_service]
+  internal_port = 7777
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ["app"]
