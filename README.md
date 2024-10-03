@@ -4,6 +4,8 @@ A web application that is used as a shared shopping list.
 
 # Online Demo
 
+https://cuongvu-project1-fi-91.deno.dev/
+
 ## Contents
 
 The Shopping List has a Deno application that starts on port `7777`.
